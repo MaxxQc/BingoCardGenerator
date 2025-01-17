@@ -241,6 +241,8 @@ function generateCards(doc: jsPDF, bingoCard: string[][], addPage: boolean, lang
     }
   }
 
+  doc.addPage()
+
   if (addPage) doc.addPage();
 }
 
